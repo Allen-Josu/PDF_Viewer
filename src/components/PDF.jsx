@@ -36,7 +36,7 @@ const styles = new StyleSheet.create({
 
 
 
-function PDF() {
+function PDFView() {
     return (
         <>
             <PDFViewer style={{ width: "100%", height: "101vh" }}>
@@ -65,5 +65,5 @@ function PDF() {
     )
 }
 
-export default PDF;
+export default PDFView;
 
